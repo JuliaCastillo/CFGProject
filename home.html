@@ -14,45 +14,75 @@
 
     <body>
  
+  
     <!-- nav -->
     <!-- <nav>
 photography, drop down hover list, and search bar
     </nav> -->
 
 
-    <div class="box1">
-        <h2> 
-            PHOTOGRAPHY
-        </h2>    
 
-        <h1>  P  </h1>
+    <div class="navbar">
+       
+        <div class="dropdown">
+          <button class="dropbtn">≡ 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Home</a>
+            <a href="#">Profile</a>
+            <!-- talk about our project, who we are and what our aim was (coding practice) -->
+            <a href="#">Art</a>
+            <a href="#">Contact</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+          </div>
+        </div> 
+        <a href="#home">Art</a>
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+      </div>
 
-        <P> 
-            SHOWCASING WORKS FROM SEVERAL DIFFERENT ARTISTS.  
-            <BR>
-            PRESS ABOVE TO DISCOVER THEIR ART.
+<div class="box1">
+    <h2> 
+        PHOTOGRAPHY
+    </h2>    
 
-        </P>
+    <h1>  P  </h1>
 
-        <br>
+    <P> 
+        SHOWCASING WORKS FROM SEVERAL DIFFERENT ARTISTS.  
+        <BR>
+        PRESS ABOVE TO DISCOVER THEIR ART.
+
+    </P>
+
+    <br>
+
+    <button class="btn contact">CONTACT</button>
         
-        <button class="btn contact" onclick="window.location.href='contact-page.html';">CONTACT</button>
-     
 
+<!-- link to the contact html page -->
 
-    </div>
+</div>
 
-</body>
+    </body>
 
     <br>
 
     <footer>
-        <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"></a>
-        <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank"></a>
-        <a href="https://www.twitter.com" class="fa fa-twitter" target="_blank"></a>
-        <a href="https://www.youtube.com" class="fa fa-youtube" target="_blank"></a>  
+        <a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.youtube.com" target="_blank" class="fa fa-youtube"></a>   
     </footer>
     
 
 
 </html>
+
+
