@@ -254,3 +254,7 @@ img {
     width: 300px;
     padding: 40px;
 }
+
+img:hover {
+    transform: scale(1.1);
+}
